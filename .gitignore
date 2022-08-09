@@ -1,0 +1,10 @@
+#gtkwave file
+*.ghw
+
+#obj file
+*.cf
+
+
+#etc
+*.zip
+
