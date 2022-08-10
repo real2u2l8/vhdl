@@ -30,6 +30,7 @@ architecture arch_tc4way of tc4way is
         lgin <= not gout and not lgout and not yout and rout;
         yin <= gout and not lgout and not yout and not rout;
         rin <= (not gout and not lgout and not yout and not rout) or (not gout and not lgout and yout and not rout);
+        
         g <= gout;
         lg <= lgout;
         y <= yout;
