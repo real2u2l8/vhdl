@@ -14,7 +14,7 @@ architecture arch_fa_tb of fa_tb is
         end component fa;
     begin
         map0 : fa port map ( a_s, b_s, cin_s, s_s, cout_s );
-        input_a : process
+    input_a : process
     begin
         a_s <= '0';
         wait for 10 ns;
